@@ -36,3 +36,12 @@ p {
   padding: 8px;
   margin: 10px;
 }
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+  transition: all 200ms ease-in-out;
+  background-color: white;
+  color: rgb(20, 58, 228);
+  cursor: pointer;
+}
