@@ -3,45 +3,70 @@
 font-family: 'Josefin Sans', sans-serif; */
 
 body {
-  background: rgb(49, 128, 117);
+  background: rgb(253, 253, 253);
 }
 
 h1 {
-  color: white;
+  color: rgb(137, 74, 173);
   font-family: "Abril Fatface", cursive;
   font-size: 100px;
   font-weight: normal;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 p {
   font-family: "Abril Fatface", cursive;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
-  color: white;
+  font-family: "Open Sans", cursive;
+  font-size: 26px;
+  color: rgb(14, 13, 13);
+  margin-bottom: 0px;
 }
 
-.social-media {
-  font-size: 20px;
-  color: white;
+.dev-img img {
+  width: 280px;
+}
+
+.hero {
+  max-width: 1940px;
+  padding: 30px 150px 10px 150px;
+  align-items: center;
+  margin: 100px 150px 60px 150px;
+}
+
+.home {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.fa-linkedin,
-.fa-github,
-.fa-envelope {
-  border-radius: 40px;
-  background-color: rgb(20, 58, 228);
-  padding: 8px;
-  margin: 10px;
+.introduction {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
 
-.fa-linkedin:hover,
-.fa-github:hover,
-.fa-envelope:hover {
-  transition: all 200ms ease-in-out;
-  background-color: white;
-  color: rgb(20, 58, 228);
-  cursor: pointer;
+.button-about {
+  text-align: center;
+}
+
+.button-about a {
+  border-radius: 10px;
+  border: 1px;
+  padding: 15px;
+  text-decoration: none;
+  background-color: #6c63ff;
+  color: white;
+  box-shadow: 10px 8px 5px rgb(14, 13, 13, 0.3);
 }
