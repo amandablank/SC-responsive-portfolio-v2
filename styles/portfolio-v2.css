@@ -102,7 +102,7 @@ p {
 .hero {
   background: var(--background-color);
   text-align: center;
-  padding: 160px 300px;
+  padding: 160px 200px;
 }
 
 .hero p {
@@ -220,7 +220,7 @@ p {
   font-size: 47px;
 }
 
-@media (max-width: 1700px) {
+/*@media (max-width: 1700px) {
   .remove {
     display: none;
     width: 0px;
@@ -228,7 +228,7 @@ p {
   .remain {
     width: 100%;
   }
-}
+}*/
 
 @media (max-width: 1170px) {
   .remain h1 {
