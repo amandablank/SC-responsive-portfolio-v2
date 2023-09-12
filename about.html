@@ -4,13 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Amanda Cristina Blankenburg is a front-end developer based in Germany, Europe."
-    />
-    <title>
-      Main page about Amanda Cristina Blankenburg - front-end developer.
-    </title>
+    <meta name="description" content="Page about Amanda Cristina Blankenburg, front-end developer based in Germany.">
+    <title>Information about Amanda Cristina Blankenburg - front-end developer.</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -58,8 +53,8 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a
-                class="nav-link active"
-                alt="Main page about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe."
+                class="nav-link"
+                alt="Main page about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
                 aria-current="page"
                 href="index.html"
                 >Home</a
@@ -67,25 +62,25 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
-                alt="Information about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe."
+                class="nav-link active"
+                alt="Information about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
                 href="about.html"
                 >About</a
               >
-            </li>
-            <li class="nav-item">
+              <li class="nav-item">
               <a
                 class="nav-link"
-                alt="Page showing Amanda Cristina Blankenburg projects."
+                alt="Main page about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
                 aria-current="page"
                 href="work.html"
                 >Projects</a
               >
             </li>
+            </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                alt="Contact Amanda Cristina Blankenburg, front-end developer based in Germany, Europe."
+                alt="Contact information about Amanda Cristina Blankenburg, front-end developer based in Germany, Europe"
                 href="contact.html"
                 >Contact</a
               >
@@ -96,112 +91,63 @@
     </nav>
     <div class="hero">
       <div class="row">
-        <div class="col-6 remain">
-          <p>Hi, I am</p>
-          <h1>Amanda Blankenburg</h1>
-          <h2 class="mb-5 mt-4">🇧🇷 Front-end developer, based in Germany</h2>
-          <div class="navigation-links">
-            <a href="index.html#projects" class="btn btn-branding"
-              >My Projects</a
-            >
-            <a href="about.html" class="btn btn-branding">About Me</a>
-          </div>
-        </div>
         <div class="col-6 remove">
           <div>
             <img
-              src="images/designer-woman.svg"
-              alt="woman-coding"
+              src="images/dev-focus.svg"
+              alt="focused-dev"
               class="img-fluid dev-img"
             />
           </div>
         </div>
+        <div class="col-6 remain">
+          <h1>About Me</h1>
+          <div class="about-me">
+            <p>
+              I am a front-end developer from Blumenau, Brazil and currently
+              based in Germany. This is my portfolio where I share my projects
+              and certifications. I'm passionate about learning new things and
+              have fun while doing so. In my spare time I enjoy spending time
+              with my family and friends, crocheting Amigurumi and building my
+              own projects.
+            </p>
+            <div class="navigation-links">
+              <a href="about.html#certifications" class="btn btn-branding"
+                >My Certifications</a
+              >
+              <a href="work.html" class="btn btn-branding"
+                >My Projects</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="main-title">
-      <p class="text-center text-muted" id="projects">My Projects</p>
-    </div>
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/amigurumi-project.png"
-            class="img-fluid p-2 mb-5 shadow"
-            alt="Amigurumi project image."
-          />
+    <div>
+      <div class="container">
+        <div id="certifications">
+          <p class="text-center text-muted about-title">Certifications</p>
         </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5 text-muted">Landing Page</h2>
-            <p class="mb-5 text-muted">
-              Created a landing page from scratch about Amigurumi. The idea was
-              to create a page about something I like. Built with HTML and CSS
-              in VS Code Editor.
-            </p>
-            <a
-              href="https://lighthearted-pasca-291de4.netlify.app/"
-              class="btn btn-branding-outline"
-              target="_blank"
-            >
-              View more
-            </a>
+        <div class="row mb-5">
+          <div class="col-sm-6">
+            <img
+              src="images/basics-certificate.png"
+              alt="certificate-basics"
+              class="img-fluid p-2 shadow rounded"
+            />
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="images/plus-certificate.png"
+              alt="certificate-plus"
+              class="img-fluid p-2 shadow rounded"
+            />
           </div>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5 text-muted">Weather App | Version 1</h2>
-            <p class="mb-5 text-muted">
-              Weather Forecast search project. Implemented a Search Engine with
-              API integration (search for wind speed and weather description for
-              example). Everything that's included in the code works with real
-              data. Built with HTML, CSS, Javascript and Bootstrap in VS Code
-              Editor. Hosted on Github and Netlify.
-            </p>
-            <a
-              href="https://animated-semifreddo-fac59f.netlify.app/"
-              class="btn btn-branding-outline"
-              target="_blank"
-            >
-              View more
-            </a>
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/weather-app-v1.png"
-            class="img-fluid p-2 mb-5 shadow rounded"
-            alt="Weather app image - version 1."
-          />
-        </div>
       </div>
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img
-            src="images/weather-app-v2.png"
-            class="img-fluid p-2 mb-5 shadow rounded"
-            alt="Weather app image - version 2."
-          />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5 text-muted">Weather App | Version 2</h2>
-            <p class="mb-5 text-muted">
-              Second version of the Weather Forecast search app. Changed the
-              design of the first version.
-            </p>
-            <a
-              href="https://gentle-souffle-2efd83.netlify.app/"
-              class="btn btn-branding-outline"
-              target="_blank"
-            >
-              View more
-            </a>
-          </div>
-        </div>
-      </div>
-      <footer class="container">
+      <br />
+    <footer class="container">
         <div class="contact-box justify-content-center mb-5 d-none d-md-flex">
           <div class="text-center">
             <h4>Work Inquiry</h4>
@@ -234,14 +180,10 @@
       <p class="text-center mt-5 mb-5">
         This page was coded by
         <a
-          href="https://www.linkedin.com/in/amanda-cristina-blankenburg-81b410213/"
-          target="_blank"
+          href="https://www.linkedin.com/in/amanda-cristina-blankenburg-81b410213/" target="_blank"
           >Amanda Cristina Blankenburg</a
         >
-        and it is
-        <a href="https://github.com/amandablank" target="_blank"
-          >open-sourced</a
-        >
+        and it is <a href="https://github.com/amandablank" target="_blank">open-sourced</a>
       </p>
     </div>
   </body>

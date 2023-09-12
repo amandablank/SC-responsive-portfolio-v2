@@ -1,0 +1,269 @@
+/* h1: font-family: 'Abril Fatface', cursive; */
+/* p: font-family: 'Abril Fatface', cursive;
+font-family: 'Josefin Sans', sans-serif; */
+
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #696666;
+  --background-color: #d5d4d6;
+  --text-color: #000000;
+  --heading-font-family: "Abril Fatface", cursive;
+  --default-font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.2;
+  font-family: var(--heading-font-family);
+  color: var(--secondary-color);
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 48px;
+}
+
+footer {
+  margin: 40px 0;
+}
+
+footer .contact-box {
+  background: var(--background-color);
+  padding: 50px 200px;
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+}
+
+footer .contact-box h4 {
+  margin: 0;
+  font-size: 58px;
+}
+
+footer .contact-box p {
+  margin: 15px;
+  font-size: 24px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 26px;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 24px;
+  color: var(--text-color);
+  font-size: 40px;
+}
+
+footer .social-links a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero .about-me p {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+
+.dev-img {
+  width: 70%;
+}
+
+.hero {
+  background: var(--background-color);
+  text-align: center;
+  padding: 160px 300px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 32px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.navigation-links a {
+  margin-right: 30px;
+  margin-bottom: 5px;
+}
+
+.contact-btn {
+  margin-top: 40px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.project-description p {
+  font-size: 22px;
+}
+
+@media (max-width: 900px) {
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+.navbar-brand {
+  font-family: (--default-font-family);
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.half-moon {
+  width: 47px;
+  padding: 5px;
+  border-bottom: 6px solid var(--branding-color);
+  border-right: 6px solid var(--branding-color);
+  border-radius: 4px 30px 33px 30px;
+}
+
+.main-title,
+.about-title,
+.main-title p {
+  font-size: 65px;
+  margin-top: 110px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: var(--text-color);
+}
+
+.active {
+  color: var(--branding-color);
+}
+
+.nav-item {
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.project-description h2 {
+  font-family: var(--heading-font-family);
+  font-size: 47px;
+}
+
+@media (max-width: 1700px) {
+  .remove {
+    display: none;
+    width: 0px;
+  }
+  .remain {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1170px) {
+  .remain h1 {
+    font-size: 60px;
+  }
+}
+
+#contact {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+
+.contact-link a {
+  padding-top: 10px;
+  font-size: 40px;
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.contact-link a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  font-size: 80px;
+  text-align: center;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.social-media a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
