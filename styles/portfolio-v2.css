@@ -176,6 +176,13 @@ p {
   color: var(--branding-color);
 }
 
+.navbar-brand:hover {
+  font-family: (--default-font-family);
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--background-color);
+}
+
 .half-moon {
   width: 47px;
   padding: 5px;
@@ -197,6 +204,10 @@ p {
   color: var(--secondary-color);
 }
 
+.nav-link:hover {
+  color: var(--background-color);
+}
+
 .active {
   color: var(--branding-color);
 }
@@ -211,19 +222,13 @@ p {
   font-size: 47px;
 }
 
-/*@media (max-width: 1700px) {
-  .remove {
-    display: none;
-    width: 0px;
-  }
-  .remain {
-    width: 100%;
-  }
-}*/
-
 @media (max-width: 1170px) {
   .remain h1 {
     font-size: 60px;
+  }
+
+  .remove {
+    display: none;
   }
 }
 
